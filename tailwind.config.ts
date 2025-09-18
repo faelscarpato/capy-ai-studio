@@ -57,6 +57,19 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+        ide: {
+          bg: "hsl(var(--ide-bg))",
+          sidebar: "hsl(var(--ide-sidebar))",
+          "sidebar-foreground": "hsl(var(--ide-sidebar-foreground))",
+          editor: "hsl(var(--ide-editor))",
+          chat: "hsl(var(--ide-chat))",
+          success: "hsl(var(--ide-success))",
+          warning: "hsl(var(--ide-warning))",
+        },
+      },
+      backgroundImage: {
+        "gradient-primary": "var(--gradient-primary)",
+        "gradient-sidebar": "var(--gradient-sidebar)",
       },
       borderRadius: {
         lg: "var(--radius)",
